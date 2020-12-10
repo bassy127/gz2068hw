@@ -1,0 +1,40 @@
+div {
+  width: 0px;
+  height: 0px;
+  float: left;
+  margin: 10px;
+  border-style: solid;
+}
+.top {
+  border-width: 0px 50px 100px 50px;
+  border-color: transparent transparent orange transparent;
+}
+.top2 {
+  border-width: 0px 20px 50px 20px;
+  border-color: transparent transparent skyblue transparent;
+}
+.right {
+  border-width: 50px 100px 50px 0px;
+  border-color: transparent pink transparent transparent;
+}
+.right2 {
+  border-width: 20px 50px 20px 0px;
+  border-color: transparent skyblue transparent transparent;
+}
+.bottom {
+  border-width: 100px 50px 0px 50px;
+  border-color: orange transparent transparent transparent;
+}
+.bottom2 {
+  border-width: 50px 20px 0px 20px;
+  border-color: skyblue transparent transparent transparent;
+}
+.left {
+  border-width: 50px 0px 50px 100px;
+  border-color: transparent transparent transparent pink;
+}
+.left2 {
+  border-width: 20px 0px 20px 50px;
+  border-color: transparent transparent transparent skyblue;
+}
+
