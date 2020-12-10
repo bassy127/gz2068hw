@@ -1,0 +1,18 @@
+.box,
+.div1,
+.div2 {
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+.box p,
+.div1 {
+  font-size: 30px;
+  color: aquamarine;
+}
+.div1 {
+  background-color: pink;
+}
+.div2 {
+  background-color: tan;
+}

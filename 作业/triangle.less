@@ -1,0 +1,44 @@
+div{
+    width: 0px;
+    height: 0px;
+    float: left;
+    margin: 10px;
+    border-style: solid;
+}
+
+.mixin (angelStyle, @width, @color) {
+    border-width: @width;
+    border-color: @color;
+}
+@switch: angelStyle;
+
+.top {
+    .mixin(@switch,0px 50px 100px 50px,transparent transparent orange transparent);
+}
+.top2 {
+    .mixin(@switch,0px 20px 50px 20px,transparent transparent skyblue transparent);
+}
+
+.right {
+    .mixin(@switch,50px 100px 50px 0px,transparent pink transparent transparent);
+}
+.right2 {
+    .mixin(@switch,20px 50px 20px 0px,transparent skyblue transparent transparent);
+}
+
+
+.bottom {
+    .mixin(@switch,100px 50px 0px 50px,orange transparent transparent transparent);
+}
+.bottom2 {
+    .mixin(@switch,50px 20px 0px 20px,skyblue transparent transparent transparent);
+}
+
+
+
+.left {
+    .mixin(@switch,50px 0px 50px 100px,transparent transparent transparent pink);
+}
+.left2 {
+    .mixin(@switch,20px 0px 20px 50px,transparent transparent transparent skyblue);
+}
